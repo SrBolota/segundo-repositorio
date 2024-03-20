@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Truculenta',sans-serif;
+}
 header {
     background-color: rgb(73, 1, 1);
     color: white;
@@ -35,4 +39,16 @@ header {
     background-image: linear-gradient(rgb(73, 1, 1),red );
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo {
+    width: 35%;
+
+}
+
+.escola-titulo {
+    padding: 24px 0;
 }
