@@ -2,12 +2,12 @@
 @import url(/Styles/header.css);
 
 :root {
-    --cor-principal-principal: #7C37EF;
-    --cor-2; #006DFF:
-    --cor-3; #0089FF;
-    --cor-4; #0098FC;
-    --cor-5; #00A2C6;
-    --cor-6; #00A887;
-    --cor-preto; #000000:
-    --cor-branco; #FFFFFF;
+    --cor-principal-principal: #7c37ef;
+    --cor-2: #006DFF;
+    --cor-3: #0089FF;
+    --cor-4: #0098FC;
+    --cor-5: #00A2C6;
+    --cor-6: #00A887;
+    --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
 }
