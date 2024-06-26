@@ -44,3 +44,19 @@
     display: block;
     
 }
+
+.container__botao {
+    display: none;
+}
+
+.cabecalho-lista-titulo {
+    padding: 1em;
+    color: var(--cor-preto);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho-listaa-item{
+    padding: 1em0;
+    color: var(--cor-principal);
+}
