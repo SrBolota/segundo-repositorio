@@ -21,7 +21,7 @@ header {
 }
 
 .cabecalho-imagem {
-    width: 20%;
+    width: 50%;
 }
 
 
@@ -36,7 +36,7 @@ header {
 }
 
 .escola {
-    background-image: linear-gradient(rgb(73, 1, 1),red );
+    background-image: linear-gradient(#7c37ef, black);
     color: white;
     display: flex;
     justify-content: center;
