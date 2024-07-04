@@ -7,12 +7,12 @@ body {
     font-family: 'Truculenta',sans-serif;
 }
 header {
-    background-color: rgb(73, 1, 1);
+    background-color: #006DFF;
     color: white;
 }
 
 .cabecalho {
-    background-color: rgb(73, 1, 1);
+    background-color: #006DFF;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -21,7 +21,7 @@ header {
 }
 
 .cabecalho-imagem {
-    width: 50%;
+    width: 20%;
 }
 
 
