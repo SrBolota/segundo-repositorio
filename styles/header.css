@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-2);
     display: flex;
     justify-content: space-between;
     align-items: center;
