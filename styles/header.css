@@ -101,7 +101,7 @@
         display: flex;
     }
 
-    .opcoes__itens {
+    .opcoes__itens{
         padding: 0 2em;
         text-transform: uppercase;
         color: var(--cor-branco);
