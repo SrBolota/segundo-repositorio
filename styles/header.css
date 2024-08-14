@@ -36,7 +36,7 @@
     background-color: var(--cor-2);
     position: absolute;
     top: 100%;
-    width: 50vmax;
+    width: 50vw;
 }
 
 .container__botao:checked~.cabecalho-lista{
