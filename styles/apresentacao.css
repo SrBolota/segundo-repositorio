@@ -12,7 +12,7 @@ body {
 }
 
 .escola {
-    background-image: linear-gradient(var(--cor-2), black);
+    background-image: linear-gradient(var(--cor-principal), black);
     color: white;
     display: flex;
     justify-content: center;
