@@ -33,7 +33,7 @@
 
 .cabecalho-lista{
     display: none;
-    background-color: var(--cor-2);
+    background-color: var(--cor-principal);
     position: absolute;
     top: 100%;
     width: 50vw;
@@ -62,7 +62,7 @@
 
 .container-titulo {
     display: none;
-
+    color: var(--cor-branco);
 }
 
 .menu__lita-item {
