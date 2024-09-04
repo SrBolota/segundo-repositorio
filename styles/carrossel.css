@@ -22,7 +22,7 @@
     margin: 0.5em 0;
 }
 
-@medias screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .carrosel__titulo{
         font-size: 26px;
     }
