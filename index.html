@@ -166,19 +166,13 @@
 
         <script>
             const swiper = new swiper (".swiper",{
-                direction: "vertical";
-                loop: true;
 
+                spaceBetween: 10,
+                slidesPerView: 1,
+              
                 pagination:{
                     el: ".swiper-pagination",
-                },
-
-                navigation: {
-                    nexteEL: ".swiper-button-next",
-                },
-
-                scrollbar: {
-                    el: ".swiper-scrollbar",
+                    type: "bullets"
                 },
             
             });
