@@ -1,9 +1,7 @@
-.flashcard{
-    background-color: var(--cor-6);
-}
 
 #flashcard{
     display: flex;
+    background-color: var(--cor-6);
 }
 
 .cartao{
