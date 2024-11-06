@@ -10,21 +10,20 @@ function criaCartao (item, pergunta, resposta) {
     cartao.innerHTML = `
           <div class="cartao__conteudo">
 
-                    <h3>Missão</h3>
+                    <h3>${item}</h3>
 
                     
                     <div class="cartao__conteudo__pergunta">
                         </p>
-                            Saiba qual é a missao de nossa empresa!
+                            ${pergunta}
                         <p>
                             
                     </div>
 
                     <div class="cartao__conteudo__resposta">
                         <p>
-                            Avaliar e concertar dispositivos
-                            para diminuir a troca sem 
-                            necesidade
+                           ${resposta}
+                        
                         </p>
 
                     </div>
