@@ -35,9 +35,9 @@ function criaCartao (item, pergunta, resposta) {
     `
     let respostaEstaVisivel = false;
 
-    function viraCartão () {
+    function viraCartao () {
         respostaEstaVisivel = !variavelEstaVisivel;
-        cartao.classList.toggle('active', viraCartão);
+        cartao.classList.toggle('active', viraCartao);
 
     }
 
