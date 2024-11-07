@@ -37,7 +37,7 @@ function criaCartao (item, pergunta, resposta) {
 
     function viraCartão () {
         respostaEstaVisivel = !variavelEstaVisivel;
-        cartao.classList.toggle('active', viraCartao);
+        cartao.classList.toggle('active', viraCartão);
 
     }
 
