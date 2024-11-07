@@ -2,7 +2,7 @@ function criaCartao (item, pergunta, resposta) {
     //console.log(item, pergunta, resposta)
 
 
-    let flshcard = documet.getElementById('flashcard');
+    let flashcard = documet.getElementById('flashcard');
     let cartao = document.createElement('article');
 
     cartao.className = 'cartao';
