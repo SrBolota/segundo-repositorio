@@ -29,8 +29,21 @@ function criaCartao (item, pergunta, resposta) {
                     </div>
                     
                     
-                 </div>
+            </div>
+
+
     `
+    let respostaEstaVisivel = false;
+
+    function viraCartão () {
+        respostaEstaVisivel = !variavelEstaVisivel;
+        cartao.classList.toggle('active', viraCartao);
+
+    }
+
+    cartao.addEventListener('click', viraCartão)
+
+
 
     flashcard.appendChield(cartao);
 
