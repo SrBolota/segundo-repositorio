@@ -41,7 +41,7 @@ function criaCartao (item, pergunta, resposta) {
 
     }
 
-    cartao.addEventListener('click', viraCartão)
+    cartao.addEventListener('click', viraCartao)
 
 
 
