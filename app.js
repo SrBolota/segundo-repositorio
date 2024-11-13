@@ -33,19 +33,19 @@ function criaCartao (item, pergunta, resposta) {
 
 
     `
-    let respostaEstaVisivel = false;
+    let respostaEstaVisivel = false
 
-    function viraCartao () {
-        respostaEstaVisivel = !variavelEstaVisivel;
-        cartao.classList.toggle('active', viraCartao);
-
+    function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+        cartao.classList.toggle('active', respostaEstaVisivel)
     }
 
+   
     cartao.addEventListener('click', viraCartao)
 
 
 
-    flashcard.appendChield(cartao);
+    flashcard.appendChield(cartao)
 
 }
 
