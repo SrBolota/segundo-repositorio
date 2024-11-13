@@ -85,7 +85,7 @@
 @media screen and (min-width: 1024px){
     .container-titulo {
         display: block;
-        font-family: var(--font-principal);
+        font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
     }
@@ -121,6 +121,10 @@
 
     .opcoes__botao{
         display: none;
+    }
+
+    #container__left {
+        margin-right: 50px;
     }
 
 
