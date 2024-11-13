@@ -53,6 +53,7 @@
     color: var(--cor-preto);
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .cabecalho-lista-item{
