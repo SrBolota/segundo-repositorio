@@ -1,7 +1,3 @@
-main {
-    margin-top: 60px;
-}
-
 .cabecalho {
     background-color: var(--cor-principal);
     display: flex;
