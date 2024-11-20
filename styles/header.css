@@ -69,7 +69,7 @@
     color: var(--cor-branco);
 }
 
-.menu__lita-item {
+.menu__lista-item {
     background: var(--cor-principal);
     color: var(--cor-6);
     -webkit-background-clip: text;
