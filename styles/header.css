@@ -1,4 +1,6 @@
-
+main {
+    margin-top: 60px;
+}
 .cabecalho {
     background-color: var(--cor-principal);
     display: flex;
@@ -28,16 +30,17 @@
 
 .cabecalho-imagem{
     padding: 1em;
+    width: 40px;
 }
 
 .container__imagem{
     padding: 1em;
-    width: 100px; 
+    width: 80px; 
 }
 
 .cabecalho-lista{
     display: none;
-    background-color: var(--cor-4);
+    background-color: var(--cor-principal);
     position: absolute;
     top: 100%;
     width: 50vw;
