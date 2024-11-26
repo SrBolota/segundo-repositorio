@@ -9,7 +9,6 @@
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: var(--cor-6);
     height: 15rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -19,10 +18,12 @@
     background-color: var(--cor-branco);
     text-align: center;
     height: 100%;
-    
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .cartao__conteudo h3 {
