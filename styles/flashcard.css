@@ -1,5 +1,5 @@
 #flashcard {
-    background:linear-gradient(var(--cor-preto), var(--cor-2));
+    background:var(--cor-preto);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
