@@ -18,7 +18,7 @@ function toggleFavorite(imgElement) {
     }); 
 } 
     
-document.querySelectorAll('img[src="./img/favoritos.svg"]').forEach(img => { 
+document.querySelectorAll('img[src="./img/faoritos.svg"]').forEach(img => { 
     img.addEventListener('click', function() { 
         toggleFavorite(this); 
     }); 
