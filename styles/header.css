@@ -2,13 +2,12 @@ main {
     margin-top: 60px;
 }
 
-
-.cabecalho {   
+.cabecalho {
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     color: var(--cor-branco);
@@ -21,28 +20,27 @@ main {
     align-items: center;
 }
 
-.cabecalho__menu {
+.cabecalho__menu{
     width: 24px;
     height: 24px;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-
 }
+
 .cabecalho-imagem{
     padding: 1em;
-
 }
 
 .container__imagem{
     padding: 1em;
-    width: 80px;
+    width: 100px; 
 }
 
 .cabecalho-lista{
     display: none;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-4);
     position: absolute;
     top: 100%;
     width: 50vw;
@@ -50,7 +48,6 @@ main {
 
 .container__botao:checked~.cabecalho-lista{
     display: block;
-    
 }
 
 .container__botao {
@@ -71,12 +68,11 @@ main {
 
 .container-titulo {
     display: none;
-    color: var(--cor-branco);
 }
 
 .menu__lista-item {
     background: var(--cor-principal);
-    color: var(--cor-branco);
+    color: var(--cor-2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -86,12 +82,13 @@ main {
 .opcoes {
     display: none;
 }
+
 .container__texto {
     display: none;
 }
 
-@media screen and (min-width: 1024px){
-    .container-titulo {
+@media screen and (min-width: 1024px) {
+    .container-titulo{
         display: block;
         font-family: var(--fonte-principal);
         font-weight: 400;
@@ -102,7 +99,7 @@ main {
         display: none;
     }
 
-    .cabecalho__favorito{
+    .cabecalho__favorito {
         display: none;
     }
 
@@ -110,7 +107,7 @@ main {
         display: flex;
     }
 
-    .opcoes__itens{
+    .opcoes__item{
         list-style-type: none;
         padding: 0 2em;
         text-transform: uppercase;
@@ -128,13 +125,12 @@ main {
     }
 
     .opcoes__botao{
-        display: none;
+        display:none;
     }
 
     #container__left {
         margin-right: 50px;
     }
-
 
 }
 
@@ -143,12 +139,12 @@ main {
         display: flex;
         align-items: center;
         text-decoration: none;
-        color: var(--cor-branco);
+        color: var(--cor-brancobranco);
+        margin-right: 10px;
     }
 
     .cabecalho {
         padding: 0 2em;
-
     }
 
     .opcoes {
@@ -158,5 +154,5 @@ main {
     .container__texto {
         display: block;
     }
-    
+
 }
