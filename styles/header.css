@@ -183,4 +183,6 @@ main {
     display: none;
 }
 
-
+.alto-contraste {
+    background-color: var(--cor-preto);
+}
